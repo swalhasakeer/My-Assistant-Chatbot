@@ -1,0 +1,6 @@
+flask 
+pickle
+scikit-learn 
+nltk 
+python-dotenv 
+openai

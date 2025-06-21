@@ -1,0 +1,411 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Good morning",
+                "Good evening",
+                "What's up?",
+                "Yo",
+                "Hiya",
+                "Greetings",
+                "Hello there",
+                "Hey there",
+                "Good afternoon",
+                "Hi how are you",
+                "What's good?",
+                "Sup?",
+                "Howdy"
+            ],
+            "responses": [
+                "Hello! How can I assist you today? 😊",
+                "Hi there! Ready to dive in?",
+                "Hey! What's on your mind?",
+                "Greetings! How's it going?",
+                "Yo! Let's chat! 🚀"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Goodbye",
+                "See you",
+                "Catch you later",
+                "Talk to you soon",
+                "See you soon",
+                "Take care",
+                "Later",
+                "I'm out",
+                "Gotta go",
+                "Farewell",
+                "Bye bye",
+                "Until next time",
+                "Peace out",
+                "Adios"
+            ],
+            "responses": [
+                "Goodbye! Come back soon! 👋",
+                "Take care! Catch you later!",
+                "See you next time! 😊",
+                "Later! Stay awesome!",
+                "Bye! Have a great day!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Tnx",
+                "Thanks a lot",
+                "Thank you so much",
+                "I am happy",
+                "Appreciate it",
+                "Thanks a bunch",
+                "Grateful",
+                "Thank you very much",
+                "Cheers",
+                "Big thanks",
+                "You're awesome",
+                "Much appreciated",
+                "Thank u"
+            ],
+            "responses": [
+                "You're welcome! 😊",
+                "Happy to help!",
+                "Anytime! 🙌",
+                "My pleasure!",
+                "Glad I could assist!"
+            ]
+        },
+        {
+            "tag": "about_me",
+            "patterns": [
+                "Who are you?",
+                "What are you?",
+                "Are you a bot?",
+                "What's your name?",
+                "What can you do?",
+                "What is your role?",
+                "Tell me about yourself",
+                "Who made you?",
+                "What are you designed for?",
+                "Are you human?",
+                "What's your purpose?",
+                "Who created you?",
+                "Are you AI?",
+                "What do you do?",
+                "Introduce yourself"
+            ],
+            "responses": [
+                "I'm an AI chatbot assistant created by Swalha Sakeer! 🤖",
+                "I'm Swalha's virtual assistant, here to answer your questions and share info about her work! 😊",
+                "I'm a smart bot designed to help you learn about Swalha's projects and skills!",
+                "My name? Just call me Swalha's AI sidekick! I assist with info and fun chats!",
+                "I'm an AI built to guide you through Swalha's world of data engineering and AI! 🚀"
+            ]
+        },
+        {
+            "tag": "about_swalha",
+            "patterns": [
+                "Tell me about Swalha",
+                "Who is Swalha?",
+                "Who is Swalha Sakeer?",
+                "Give me information about Swalha",
+                "What does Swalha do?",
+                "Swalha details",
+                "About Swalha",
+                "Can I connect with Swalha",
+                "Swalha's background",
+                "What is Swalha studying?",
+                "Tell me more about Swalha Sakeer",
+                "Swalha's skills",
+                "How to reach Swalha",
+                "Swalha's projects",
+                "What's Swalha working on?",
+                "Swalha's contact info"
+            ],
+            "responses": [
+                "Swalha Sakeer is a passionate Data Engineering student with a love for AI and Machine Learning. 📊🤖",
+                "Swalha enjoys working with data, solving problems, and building intelligent applications!",
+                "Want to connect with Swalha? 👇\n📋 LinkedIn: https://linkedin.com/in/swalha-sakeer-060290b334\n🐱 GitHub: https://github.com/swalhasakeer",
+                "Swalha is a Data Engineering enthusiast, diving deep into AI, ML, and data pipelines!",
+                "Swalha is studying Data Engineering and loves creating innovative projects. Check her work on GitHub: https://github.com/swalhasakeer!"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Help",
+                "I need help",
+                "Can you help me?",
+                "Assist me",
+                "Support",
+                "Need assistance",
+                "What can you help with?",
+                "Help me out",
+                "Can you guide me?",
+                "I'm stuck",
+                "How can you assist?",
+                "Give me some help",
+                "I need some support",
+                "Help with something",
+                "Can you give advice?"
+            ],
+            "responses": [
+                "I'm here to help! What do you need assistance with? 😊",
+                "Tell me what's up, and I'll guide you!",
+                "Happy to assist! What's the issue?",
+                "Let's tackle your question together. What do you need?",
+                "I've got your back! Wha's on your mind?"
+            ]
+        },
+        {
+            "tag": "skills",
+            "patterns": [
+                "What skills does Swalha have?",
+                "Swalha's expertise",
+                "What is Swalha good at?",
+                "Tell me about Swalha's skills",
+                "What can Swalha do?",
+                "Swalha's technical skills",
+                "What does Swalha know?",
+                "Swalha's abilities",
+                "What technologies does Swalha use?",
+                "Swalha's strengths",
+                "What programming languages does Swalha know?",
+                "Swalha's skillset",
+                "What is Swalha skilled in?",
+                "Tell me about Swalha's knowledge",
+                "Swalha's proficiencies"
+            ],
+            "responses": [
+                "Swalha is skilled in Python, SQL, and data engineering tools like Apache Spark and Hadoop. She is also into AI and ML! 📊",
+                "Swalha's expertise includes data pipelines, machine learning models, and Flask-based web apps like this chatbot!",
+                "Swalha rocks at coding in Python, building AI models, and managing big data. Check her GitHub for projects: https://github.com/swalhasakeer!",
+                "Swalha's proficient in data engineering, AI, and creating cool applications. Want to see her work? Visit https://linkedin.com/in/swalha-sakeer-060290b334!",
+                "Swalha knows her way around Python, SQL, and ML frameworks. She is always learning new tech!"
+            ]
+        },
+        {
+            "tag": "projects",
+            "patterns": [
+                "What projects has Swalha done?",
+                "Tell me about Swalha's projects",
+                "Swalha's work",
+                "What has Swalha built?",
+                "Show me Swalha's projects",
+                "Swalha's portfolio",
+                "What are Swalha's creations?",
+                "Any cool projects by Swalha?",
+                "Swalha's project details",
+                "What apps has Swalha made?",
+                "Tell me about Swalha's coding projects",
+                "Swalha's GitHub projects",
+                "What has Swalha worked on?",
+                "Swalha's project examples",
+                "What's in Swalha's portfolio?"
+            ],
+            "responses": [
+                "Swalha built awesome projects like this chatbot! Check out her GitHub for more: https://github.com/swalhasakeer 📂",
+                "Swalha has worked on data engineering pipelines, AI models, and web apps. See her portfolio on GitHub: https://github.com/swalhasakeer!",
+                "From chatbots to ML models, Swalha's projects are super cool. Visit https://github.com/swalhasakeer to explore!",
+                "Swalha is created data-driven apps and AI solutions. Her GitHub has the details: https://github.com/swalhasakeer!",
+                "Want to see Swalha's work? She's got projects on AI and data engineering at https://github.com/swalhasakeer!"
+            ]
+        },
+        {
+            "tag": "education",
+            "patterns": [
+                "What is Swalha studying?",
+                "Swalha's education",
+                "Where does Swalha study?",
+                "Swalha's degree",
+                "What's Swalha's major?",
+                "Swalha's academic background",
+                "Tell me about Swalha's studies",
+                "What school does Swalha go to?",
+                "Swalha's university",
+                "What's Swalha learning?",
+                "Swalha's course of study",
+                "What's Swalha's education like?",
+                "Swalha's college",
+                "What does Swalha study?",
+                "Swalha's academic details"
+            ],
+            "responses": [
+                "Swalha is studying Data Engineering, diving deep into data systems and AI! 📚",
+                "Swalha's a Data Engineering student, passionate about big data and machine learning.",
+                "Swalha's academic focus is Data Engineering, with a knack for AI and analytics. Learn more at https://linkedin.com/in/swalha-sakeer-060290b334!",
+                "Swalha's pursuing a degree in Data Engineering, mastering tools like Spark and Python!",
+                "Swalha's learning the art and science of data engineering at her university!"
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "How can I contact Swalha?",
+                "Swalha's contact info",
+                "Reach Swalha",
+                "How to get in touch with Swalha",
+                "Swalha's email",
+                "Can I message Swalha?",
+                "Swalha's LinkedIn",
+                "How to connect with Swalha",
+                "Swalha's GitHub",
+                "Contact details for Swalha",
+                "How do I reach Swalha Sakeer?",
+                "Swalha's social media",
+                "Where can I find Swalha?",
+                "Swalha's contact information",
+                "How to talk to Swalha"
+            ],
+            "responses": [
+                "Connect with Swalha on LinkedIn: https://linkedin.com/in/swalha-sakeer-060290b334 📋",
+                "You can reach Swalha via LinkedIn: https://linkedin.com/in/swalha-sakeer-060290b334 or check her GitHub: https://github.com/swalhasakeer!",
+                "Want to get in touch? Find Swalha on LinkedIn: https://linkedin.com/in/swalha-sakeer-060290b334!",
+                "Swalha's active on GitHub: https://github.com/swalhasakeer and LinkedIn: https://linkedin.com/in/swalha-sakeer-060290b334!",
+                "Message Swalha through LinkedIn: https://linkedin.com/in/swalha-sakeer-060290b334 for collabs or inquiries!"
+            ]
+        },
+        {
+            "tag": "ai_info",
+            "patterns": [
+                "What is AI?",
+                "Tell me about artificial intelligence",
+                "Explain AI",
+                "What does AI do?",
+                "How does AI work?",
+                "AI basics",
+                "What's artificial intelligence?",
+                "Give me info on AI",
+                "What is machine learning?",
+                "AI explanation",
+                "How is AI used?",
+                "Tell me about ML",
+                "What's the deal with AI?",
+                "AI for beginners",
+                "What can AI do?"
+            ],
+            "responses": [
+                "AI, or artificial intelligence, is when computers mimic human thinking—like learning, reasoning, or problem-solving. Think of me, a chatbot, understanding your questions! 🤖",
+                "Artificial intelligence is tech that learns from data to make decisions or predictions. It's used in chatbots, self-driving cars, and more!",
+                "AI involves algorithms that let machines process data and act smart. Want to know more about how I was built? 😊",
+                "Machine learning is a part of AI where systems learn from examples. Swalha's studying this to build cool stuff!",
+                "AI's all about making machines think smarter. From voice assistants to recommendation systems, it's everywhere!"
+            ]
+        },
+        {
+            "tag": "data_engineering",
+            "patterns": [
+                "What is data engineering?",
+                "Tell me about data engineering",
+                "Explain data engineering",
+                "What does a data engineer do?",
+                "Data engineering basics",
+                "What's data engineering about?",
+                "How does data engineering work?",
+                "Data engineering info",
+                "What is big data?",
+                "Tell me about data pipelines",
+                "What are data engineering tools?",
+                "Data engineering explanation",
+                "What's Swalha's field?",
+                "Data engineering for beginners",
+                "What do data engineers build?"
+            ],
+            "responses": [
+                "Data engineering is about building systems to collect, store, and process massive amounts of data. It's what powers AI and analytics! 📊",
+                "Data engineers like Swalha create data pipelines to make data usable for analysis or AI models. Think of it as plumbing for data!",
+                "Data engineering involves tools like Apache Spark, Hadoop, and SQL to manage big data. Swalha's mastering this field!",
+                "Big data and data pipelines are key in data engineering—Swalha's field of study. It's all about making data flow smoothly!",
+                "Data engineering is the backbone of AI and analytics, ensuring data is clean and ready. Swalha's passionate about it!"
+            ]
+        },
+        {
+            "tag": "fun_fact",
+            "patterns": [
+                "Tell me a fun fact",
+                "Fun fact about Swalha",
+                "Something interesting about Swalha",
+                "Give me a cool fact",
+                "What's a fun thing about Swalha?",
+                "Tell me something fun",
+                "Interesting fact about Swalha",
+                "Fun fact time",
+                "What's cool about Swalha?",
+                "Give me a random fact",
+                "Swalha fun fact",
+                "Tell me something cool",
+                "What's a neat fact?",
+                "Fun thing about Swalha",
+                "Surprise me with a fact"
+            ],
+            "responses": [
+                "Fun fact: Swalha once debugged a Python script at 2 AM just to make this chatbot smarter! 😄",
+                "Did you know? Swalha loves experimenting with new ML models in her free time!",
+                "Here's a cool fact: Swalha's favorite hobby is turning messy data into beautiful insights! 📈",
+                "Swalha's fun side? She enjoys binge-watching tech talks on YouTube! 😎",
+                "Fun fact: Swalha built this chatbot to showcase her love for AI and data engineering!"
+            ]
+        },
+        {
+            "tag": "joke",
+            "patterns": [
+                "Tell me a joke",
+                "Give me a joke",
+                "Make me laugh",
+                "Funny joke",
+                "Tell a funny story",
+                "Say something funny",
+                "Got a joke?",
+                "Joke time",
+                "Tell me something funny",
+                "Crack a joke",
+                "What's a good joke?",
+                "Make me smile",
+                "Funny one-liner",
+                "Tell a tech joke",
+                "AI joke"
+            ],
+            "responses": [
+                "Why did the AI go to therapy? It had an identity crisis after being asked if it was human! 😄",
+                "Here's a joke: Why don't data engineers play chess? Because they're too busy moving data, not pawns! 😆",
+                "Why did the Python script fail at stand-up comedy? It kept throwing exceptions! 😂",
+                "Knock knock! Who's there? AI. AI you glad I'm here? 😎",
+                "Why did the computer go to art school? Because it wanted to learn how to draw a better *byte*! 😄"
+            ]
+        },
+        {
+            "tag": "no_answer",
+            "patterns": [
+                "I don't know",
+                "Not sure",
+                "No idea",
+                "What?",
+                "Huh?",
+                "I'm confused",
+                "No clue",
+                "What do you mean?",
+                "I don't get it",
+                "What's that?",
+                "I'm lost",
+                "Can you repeat?",
+                "Don't understand",
+                "What are you talking about?",
+                "I'm not sure what you mean"
+            ],
+            "responses": [
+                "Oops, I might've confused you! Can you rephrase your question? 😊",
+                "Let's try that again—could you clarify what you mean?",
+                "I'm not sure I got that. Want to explain a bit more?",
+                "Hmm, I'm a bit lost too! Try asking in a different way! 😄",
+                "Let's start over—what's on your mind? 🤔"
+            ]
+        }
+    ]
+}
